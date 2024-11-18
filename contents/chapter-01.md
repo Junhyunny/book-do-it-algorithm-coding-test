@@ -16,7 +16,9 @@
 - [문제 000. 수 정렬하기](https://www.acmicpc.net/problem/2750)
   - 정렬 방법에 따른 시간 복잡도 차이에 관련된 문제다.
   - 예를 들어, 버블 정렬은 O(n^2), 병합 정렬은 O(N * logN)이다.
-  - 자바의 Arrays.sort() 메소드는 듀얼-피봇 퀵정렬(dual-pivot quick sort), Collections.sort() 메소드는 Tim 정렬을 사용한다.
+  - JDK 정렬 메소드
+    - Arrays.sort() 메소드는 듀얼-피봇 퀵정렬(dual-pivot quick sort)
+    - Collections.sort() 메소드는 Tim 정렬
 
 시간 복잡도 도출 기준은 다음과 같다.
 
